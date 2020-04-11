@@ -8,5 +8,5 @@ For this challenge, connect on port 11111 to receive your flag. If you're having
 Connect at nc socket.cryptohack.org 11111
 
 ``` 
-go run sol.py 
+go run sol.go
 ```
