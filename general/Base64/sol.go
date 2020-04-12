@@ -27,8 +27,8 @@ func main() {
 	checkError(err)
 
 	// Encoding to base64
-    flag := make([]byte, base64.StdEncoding.EncodedLen(len(bytesFlag)))
-    base64.StdEncoding.Encode(flag, bytesFlag)
+	flag := make([]byte, base64.StdEncoding.EncodedLen(len(bytesFlag)))
+	base64.StdEncoding.Encode(flag, bytesFlag)
 
 	fmt.Printf("%s\n", flag)
 
