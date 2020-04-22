@@ -36,5 +36,4 @@ func main() {
 	decodedFlag, err := hex.DecodeString(response["plaintext"].(string))
 	checkError(err)
 	fmt.Printf("Flag is = %s\n", decodedFlag)
-
 }
